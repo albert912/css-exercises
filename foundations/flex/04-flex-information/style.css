@@ -1,16 +1,93 @@
+<<<<<<< HEAD
 body {
   font-family: 'Courier New', Courier, monospace;
 }
+
+.images {
+ display: flex;
+justify-content: space-evenly;
+gap: 50px;
+ 
+ 
+
+
+}
+
+.img1 {
+ gap: 52px;
+  
+
+
+}
+
+.img2 {
+  gap: 52px;
+ 
+
+
+}
+
+.img3 {
+  gap: 52px;
+ 
+
+
+}
+
+.img4 {
+  gap: 52px;
+ 
+
+
+}
+
+
+
+
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
+}
+
+
+.text {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.text-1 {
+  text-align: center;
+  word-wrap: break-word;
+  width: 200px;}
+
+.text-2 {
+  text-align: center;
+  word-wrap: break-word;
+  width: 200px;}
+
+.text-3 {
+  text-align: center;
+  word-wrap: break-word;
+  width: 200px;
+}
+
+.text-4 {
+  text-align: center;
+  word-wrap: break-word;
+  width: 200px;
+}
+
 
 img {
   width: 100px;
   height: 100px;
 }
 
-.title {
-  font-size: 36px;
-  font-weight: 900;
-}
 
 /* do not edit this footer */
 .footer {
@@ -24,3 +101,91 @@ img {
   justify-content: center;
   background: #eee;
 }
+=======
+/* this is some magical font-importing.  
+you'll learn about it later. */
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body {
+  margin: 0;
+  background: #eee;
+  font-family: Besley, serif;
+}
+
+.header {
+  background: white;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content:
+  space-between;
+  padding: 8px;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.logo {
+  color: rebeccapurple;
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: center; 
+  gap:16px;
+   
+}
+
+
+button {
+  border: none;
+  border-radius: 8px;
+  background: rebeccapurple;
+  color: white;
+  padding: 8px 24px;
+}
+
+
+.notifications {
+  display: flex; 
+  align-items: center;
+  margin-right: -13px;
+  padding: 8px;
+
+}
+
+.profile-image {
+  background: rebeccapurple;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rebeccapurple;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  gap: 16px;
+}
+>>>>>>> c21a9ea691c8fe1cf7b1e896c4f65cc90167638b
