@@ -1,0 +1,40 @@
+Codes related to CSS GRID:
+
+display: grid (takes full width)
+
+display: inline-grid (takes full width)
+
+grid-template-columns:
+
+grid-template-rows:
+
+gap:
+
+row-gap:
+
+column-gap:
+
+grid-auto-flow: (row-column)
+
+grid-auto-rows: (for implicit grids)
+
+grid-auto-columns:(for implicit grids)
+
+grid-column-start:
+
+grid-column-end:
+
+grid-row-start:
+
+grid-row-end:
+
+grid-area: (grid-column-start, grid-column-end, grid-row-start, grid-row-end)
+
+grid-template: (specify units)
+
+grid-template-areas: (write name of the grid areas)
+
+
+
+
+
